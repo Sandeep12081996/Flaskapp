@@ -6,7 +6,7 @@ from azure.keyvault.secrets import SecretClient # type: ignore
 app = Flask(__name__)
 
 # Replace with your actual Key Vault URL
-KEY_VAULT_URL = "https://<your-keyvault-name>.vault.azure.net/"
+KEY_VAULT_URL = "https://Keyvault403.vault.azure.net/"
 SECRET_NAME = "DbConnectionString"
 
 # Authenticate using Managed Identity
